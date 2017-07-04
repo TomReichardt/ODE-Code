@@ -1,0 +1,18 @@
+module setup
+
+ implicit none
+
+
+ subroutine do_setup(pos,vel,acc)
+    real, dimension(2), intent(out) :: pos,vel,acc
+    real                            :: e=0
+
+
+    pos(1) = 1.-e
+    pos(2) = 0.
+
+
+ end subroutine do_setup
+
+
+end module setup

@@ -1,0 +1,8 @@
+module accel
+ implicit none
+
+ contains
+
+ subroutine get_accel(pos,acc)
+    real, dimension(2), intent(in) :: pos
+    real, dimension(2), intent(out) :: acc

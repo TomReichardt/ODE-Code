@@ -1,0 +1,14 @@
+program main
+
+ implicit none
+
+ real, dimension(2) :: pos
+ real, dimension(2) :: vel
+ real, dimension(2) :: acc
+
+ pos(1) = 10
+ pos(2) = 20
+
+ print*,pos
+
+end program main

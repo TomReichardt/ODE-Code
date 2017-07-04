@@ -1,0 +1,10 @@
+module energy
+
+ implicit none
+
+ contains
+
+ real subroutine kinetic_energy(vel)
+    real, dimension(2), intent(in) :: vel
+    
+    kinetic_energy = 0.5 * (vel(1)**2 + vel(2)**2
